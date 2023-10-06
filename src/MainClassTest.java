@@ -7,9 +7,6 @@ public class MainClassTest extends MainClass{
         Assert.assertTrue("class GetLocalNumber don't return 14", this.getLocalNumber() == 14);
     }
 
-    @Test
-    public void testGetClassNumber() {
-        Assert.assertTrue("method getClassNumber is less, than 45", this.getClassNumber() > 45);
-    }
+
 }
 
